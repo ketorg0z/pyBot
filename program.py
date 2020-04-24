@@ -2,7 +2,7 @@ import random, math, telebot
 from telebot import types, apihelper
 
 apihelper.proxy = {"https": "socks5://127.0.0.1:9050",
-                   "https": "платный прокси"}
+                   "https": "другой Socks5 прокси"}
 
 bot = telebot.TeleBot('правильный токен')
 
